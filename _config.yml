@@ -1,1 +1,4 @@
-theme: Merlot theme
+title: TexTome
+description: A Template for LaTeX Reports
+show_downloads: true
+theme: jekyll-theme-merlot
