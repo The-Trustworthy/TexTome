@@ -4,7 +4,7 @@ A Template for `LaTeX` Reports
 ![banner](./assets/banner.jpg)  
 
 
-This $\LaTeX$ report template was created with research and technical write-ups in mind. It can be adopted to work for any course or project, but specific care was put into creating this template in accordance with the writing manual of 20 March 2018 that is used for DBL projects (as of 2022).
+This LaTeX report template was created with research and technical write-ups in mind. It can be adopted to work for any course or project, but specific care was put into creating this template in accordance with the writing manual of 20 March 2018 that is used for DBL projects (as of 2022).
 
 ## Contents
 
@@ -20,7 +20,7 @@ This documentation covers following topics:
 
 ## Getting Started
 
-The name **"TexTome"** _"TeX,"_ which is the markup language used in $\LaTeX$, and _"Tome,"_ which means a large and scholarly book. It has a catchy and memorable sound to it, and it also hints at the professional and academic nature of the template. The name is a result of an edited suggestion by [ChatGPT](https://chat.openai.com/chat).To get started with this template, read through this file to optimize your usage of the template.
+The name **"TexTome"** _"TeX,"_ which is the markup language used in LaTeX, and _"Tome,"_ which means a large and scholarly book. It has a catchy and memorable sound to it, and it also hints at the professional and academic nature of the template. The name is a result of an edited suggestion by [ChatGPT](https://chat.openai.com/chat).To get started with this template, read through this file to optimize your usage of the template.
 
 ### Template Structure
 
