@@ -1,6 +1,8 @@
 # TexTome
 A Template for `LaTeX` Reports
 
+![banner](./assets/banner.jpg)  
+
 
 This $\LaTeX$ report template was created with research and technical write-ups in mind. It can be adopted to work for any course or project, but specific care was put into creating this template in accordance with the writing manual of 20 March 2018 that is used for DBL projects (as of 2022).
 
