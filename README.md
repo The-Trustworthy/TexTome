@@ -30,7 +30,7 @@ The following files are included in the template:
 - `General/Preamble.tex`: This file contains packages that can be added to the preamble of the report, and `General/References.bib` contains the references for the report.
 - `General/Settings.tex`: This file contains all the predefined formatting, including the title, subtitle, and authors for the front page.
 - `Chapters/`: This folder contains `.tex` files for each chapter. Each file is numbered, and the file name is in the format `x <title>.tex`, where `x` is the chapter number (for chapters) or letter (for appendices) and `<title>` is any name you like.
-- `Figures/`: This folder contains figures that can be used in the report. Always reference figures using `\includegraphics{Figures/<title>/figurename}`, where `<title>` is the subfolder where the image is located.
+- `Figures/`: This folder contains figures that can be used in the report. Always reference figures using `\includegraphics{ Figures/ <title>/name }`, where `<title>` is the subfolder where the image is located.
 
 ### Usage
 
