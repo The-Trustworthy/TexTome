@@ -29,8 +29,8 @@ The following files are included in the template:
 - `main.tex`: This file loads all the `.tex` files for the preamble, title page, and different sections. It also adds a Table of Contents, bibliography, and appendices.
 - `General/Preamble.tex`: This file contains packages that can be added to the preamble of the report, and `General/References.bib` contains the references for the report.
 - `General/Settings.tex`: This file contains all the predefined formatting, including the title, subtitle, and authors for the front page.
-- `Chapters/`: This folder contains `.tex` files for each chapter. Each file is numbered, and the file name is in the format `x.<title>.tex`, where `x` is the chapter number (for chapters) or letter (for appendices) and `<title>` is any name you like.
-- `Figures/`: This folder contains figures that can be used in the report. Always reference figures using `\includegraphics{Figures/x.<title>/figurename}`, where `x.<title>` is the subfolder where the image is located.
+- `Chapters/`: This folder contains `.tex` files for each chapter. Each file is numbered, and the file name is in the format `x <title>.tex`, where `x` is the chapter number (for chapters) or letter (for appendices) and `<title>` is any name you like.
+- `Figures/`: This folder contains figures that can be used in the report. Always reference figures using `\includegraphics{Figures/<title>/figurename}`, where `<title>` is the subfolder where the image is located.
 
 ### Usage
 
@@ -52,7 +52,7 @@ To add a chapter, create a new `.tex` file in the `Chapters/` folder and name it
 
 ### Preview
 
-The `Z. Template.tex` file contains inspiration for formatting tables, images, text citations, etc. It also functions to preview the template. Feel free to use it as a reference or delete it.
+The `3 formatting.tex` file contains inspiration for formatting tables, images, text citations, etc. It also functions to preview the template. Feel free to use it as a reference or delete it.
 
 ## Contribution
 
