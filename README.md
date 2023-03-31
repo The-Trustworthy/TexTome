@@ -58,4 +58,4 @@ Feel free to fork the repository and make changes to the template. Pull requests
 
 ## License  
 
-This template is licensed under the [MIT License](./LICENSE).
+This template is licensed under the [Apache License](./LICENSE).
