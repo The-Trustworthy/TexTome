@@ -1,0 +1,46 @@
+\documentclass[a4paper, table]{article}
+\input{General/Preamble} % Loads in the preamble 
+\input{General/Settings} % Loads in user defined settings
+\begin{document}
+
+% Inserts the front page
+\input{Chapters/0.1 cover}
+\newpage
+
+% Generates a ToC without page number
+{\hypersetup{linkcolor=black} % Keeps the ToC black even with non-black linkcolor
+\tableofcontents\thispagestyle{empty}}
+\newpage
+
+% Generates a list of symbols table
+\input{Chapters/0.2 symbols}
+\newpage
+
+% Generates a list of symbols table
+\input{Chapters/0.3 cert}
+\newpage
+
+% Generates a list of symbols table
+\input{Chapters/0.4 abstract}
+\newpage
+
+% Creates the introduction, starting page numbering
+\input{Chapters/1 intro} %\pagenumbering{arabic}
+\newpage
+
+% Literature Rew
+\input{Chapters/2 litReview}
+\newpage
+
+% About CaterApp | Methodology
+\input{Chapters/3 formatting}
+\newpage
+
+% Creates references using the Biblatex 
+\bibliographystyle{plain}
+\bibliography{General/References.bib}
+\newpage
+
+%\appendix % Any section after this command will have a letter as an index
+
+\end{document}

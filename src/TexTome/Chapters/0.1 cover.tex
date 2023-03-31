@@ -1,0 +1,71 @@
+\begin{titlepage}
+
+\centering
+
+\begin{tikzpicture}
+
+\node[opacity=0.14,inner sep=0pt,remember picture,overlay] at (4.5,-0.5){\includegraphics[width= 0.8 \textwidth]{Figures/org/logo.jpg}};
+
+\node[inner sep=0pt] (logo) at (0,0)
+    {\includegraphics[width=0.15\textwidth]{Figures/general/dummy_sq.jpg}};
+    
+
+
+ \node[text width = 0.5\textwidth, right = of logo](title){\sffamily\huge\reporttitle};
+
+\node[text width = 0.5\textwidth, yshift = 0.75cm, below = of title](subtitle){\sffamily\Large \reportsubtitle};
+
+\gettikzxy{(subtitle.south)}{\sffamily\subtitlex}{\subtitley}
+\gettikzxy{(title.north)}{\titlex}{\titley}
+
+
+\draw[line width=1mm, Soft-Blue]($(logo.east)!0.5!(title.west)$) +(0,\subtitley) -- +(0,\titley);
+
+\end{tikzpicture}
+\vspace{3cm}
+
+% Above the organization
+\node{\sffamily\Large\orginfo \\
+~ \\ ~}
+%\sffamily\orginfo
+
+% Above the name
+%\sffamily\groupnumber
+
+\textbf{~ \\
+~ \\
+Team}
+
+\begin{table}[H]
+\centering
+\sffamily
+\large
+\begin{tabu} to 0.8\linewidth {cc}
+\textbf{Full Name} & \textbf{Contribution}\\
+\hline
+
+\sffamily\reportauthors
+
+\end{tabu}
+
+\end{table}
+
+\sffamily\large\grouptutor
+
+\tikz[remember picture,overlay]\node[anchor=south,inner sep=0pt] at (current page.south) {\includegraphics[width=\paperwidth]{Figures/general/coverPic.jpg}
+
+\mbox{}
+\vfill
+\sffamily \Large \textcolor{white}{\placeanddate} \\
+
+
+
+\end{titlepage}
+
+
+
+
+
+
+
+

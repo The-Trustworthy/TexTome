@@ -1,0 +1,48 @@
+% In order to utilize this template effectively, it is necessary to have the following packages: graphicx, float, tabularx, tabu, tocbibind, titlesec, fancyhdr, xcolor, and tikz.
+
+% inputenc, lipsum, booktabs, geometry and microtype are not required, but nice to have.
+
+\usepackage[utf8]{inputenc} % Allows the use of some special characters
+\usepackage{amsmath, amsthm, amssymb, amsfonts} % Nicer mathematical typesetting
+\usepackage{lipsum} % dummy text lorem ipsum 
+
+\usepackage{graphicx} % for \begin{figure} and \includegraphics
+\usepackage{float} % for specifying the location of a figure
+\usepackage{caption} % additional customization for (figure) captions
+\usepackage{subcaption} % for sub-figures
+
+\usepackage{tabularx} % for tables
+\usepackage{tabu} % additional customization for tables
+\usepackage{booktabs} % generally nicer look
+
+\usepackage{listings} % for code support
+
+\usepackage[nottoc,numbib]{tocbibind} % Automatically adds bibliography to ToC
+\usepackage[margin = 2.5cm]{geometry} % Allows for custom (wider) margins
+\usepackage{microtype} % Slightly loosens margin restrictions for nicer spacing  
+\usepackage{titlesec} % Used to create custom section and subsection titles
+\usepackage{titletoc} % Used to create a custom ToC
+\usepackage{appendix} % Any chapter after \appendix is given a letter as index
+\usepackage{fancyhdr} % Adds customization for headers and footers
+\usepackage[shortlabels]{enumitem} % Adds additional customization for itemize. 
+
+\usepackage{hyperref} % Allows links and makes references and the ToC clickable
+\usepackage[noabbrev, capitalise]{cleveref} % referencing using \cref{<label>} or \ref{}
+
+\usepackage{xcolor} % additional colors
+
+\usepackage{tikz} % Useful for drawing images, used for creating the frontpage
+\usetikzlibrary{positioning} % Additional library for relative positioning 
+\usetikzlibrary{calc} % Additional library for calculating within tikz
+
+% Defines a command used by tikz to calculate some coordinates for the front-page
+\makeatletter
+\newcommand{\gettikzxy}[3]{%
+  \tikz@scan@one@point\pgfutil@firstofone#1\relax
+  \edef#2{\the\pgf@x}%
+  \edef#3{\the\pgf@y}%
+}
+\makeatother
+
+
+

@@ -1,0 +1,45 @@
+\section{TexTome} \label{section: introduction}
+
+\vspace{1.5cm}
+\subsection{Introduction} 
+This \textbf{LaTeX} report template was created with research and technical write-ups in mind. Thank you for choosing the TexTome LaTeX template! This template was designed with the specific needs of research and computer science in mind, but it can be easily adapted for any course or project, but specific care was put into creating this template as an academic report creater. \\
+ 
+\subsection{Getting Started} 
+\label{subsec:beg}
+The name \textbf{"TexTome"} incorporates \textit{"TeX,"}, which is the markup language used in \LaTeX, and \textit{"Tome,"}, which means a large and scholarly book. It has a catchy and memorable sound to it, and it also hints at the professional and academic nature of the template. The name is a result of an edited suggestion by ChatGPT.To get started with this template, read through this file to optimize your usage of the template. \\
+
+\subsubsection{Template Structure} 
+\label{subsec:struct}
+The following files are included in the template:
+
+\begin{itemize}
+    \item \textbf{main.tex:} This file loads all the .tex files for the preamble, title page, and different sections. It also adds a Table of Contents, bibliography, and appendices.
+    \item \textbf{General/Preamble.tex:} This file contains packages that can be added to the preamble of the report, and General/References.bib contains the references for the report.
+    \item \textbf{General/Settings.tex:} This file contains all the predefined formatting, including the title, subtitle, and authors for the front page.
+    \item \textbf{Chapters/:} This folder contains \textbf{\textit{.tex}} files for each chapter. Each file is numbered.
+    \item \textbf{Figures/:} This folder contains figures that can be used in the report. 
+\end{itemize} \\
+
+
+\subsubsection{Usage} 
+\label{subsec:use}
+To use this template, follow these steps: 
+
+\begin{enumerate}
+    \item Clone the repository or download the files.
+    \item Add your own content to the relevant files.
+    \item Customize the formatting in \textbf{Settings.tex} to your liking.
+    \item Compile the report using your preferred LaTeX compiler.
+\end{enumerate} \\
+
+
+\subsubsection{Adding Chapters} 
+\label{subsec:chapter}
+To add a chapter, create a new \textbf{.tex} file in the Chapters/ folder and name it \textbf{x <title>.tex}, where \textit{x} is the chapter number (for chapters) or letter (for appendices) and \textit{<title>} is any name you like. Don't forget to add the chapter to the main.tex file using:
+
+\begin{lstlisting}
+\input{Chapters/x.<title>.tex}
+\newpage
+\end{lstlisting}
+
+The template preview for various formatting is given in \textbf{formatting.tex}
