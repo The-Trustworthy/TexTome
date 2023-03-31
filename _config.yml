@@ -2,3 +2,5 @@ title: TexTome
 description: A Template for LaTeX Reports
 show_downloads: true
 theme: jekyll-theme-merlot
+github:
+  another_url: https://raviprakash.cf/
