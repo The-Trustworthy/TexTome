@@ -3,6 +3,4 @@ description: A Template for LaTeX Reports
 show_downloads: true
 theme: jekyll-theme-merlot
 github:
-  zip_url: https://github.com/ravi-prakash1907/TexTome/releases/download/V1.0/TexTome.V1_0.zip
-  tgz_url: https://github.com/ravi-prakash1907/TexTome/archive/refs/tags/V1.0.tar.gz
   another_url: https://raviprakash.cf/
