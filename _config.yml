@@ -4,5 +4,5 @@ show_downloads: true
 theme: jekyll-theme-merlot
 github:
   zip_url: https://github.com/ravi-prakash1907/TexTome/zipball/release
-  tgz_url: https://github.com/ravi-prakash1907/TexTome/tarball/release
+  tar_url: https://github.com/ravi-prakash1907/TexTome/tarball/release
   another_url: https://raviprakash.cf/
