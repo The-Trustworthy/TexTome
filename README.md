@@ -1,63 +1,34 @@
-# TexTome
-A Template for `LaTeX` Reports
+# TexTome LaTeX Template
 
-![banner](./assets/banner.jpg)  
+### A report template developed by Ravi Prakash (https://raviprakash.cf), inspired from "Report Template V1.0" at overleaf
 
 
-This LaTeX report template was created with research and technical write-ups in mind. It can be adopted to work for any course or project, but specific care was put into creating this template in accordance with the writing manual of 20 March 2018 that is used for DBL projects (as of 2022).
+Thank you for choosing the TexTome LaTeX template! This template was designed with the specific needs of research and computer science in mind, but it can be easily adapted for any course or project.
 
-## Contents
+Getting Started
+To get started, please read through this file to optimize your usage of this template.
 
-This documentation covers following topics:  
+The template consists of several files that aim to create an organized and aesthetically pleasing report while maintaining user-friendliness.
 
-- [Getting Started](#getting-started)
-  + [Template Structure](#template-structure)
-  + [Usage](#usage)
-  + [Adding Chapters](#adding-chapters)
-  + [Preview](#preview)
-- [Contribution](#contribution)
-- [License](#license)
+main.tex: loads all the .tex files for the preamble, title page, and different sections. It also adds a Table of Contents, bibliography, and appendices.
+General folder: allows you to add packages to the Preamble.tex and add references in the References.bib files. The Settings.tex file contains all the predefined formatting, including the title, subtitle, authors, and more for the front page. If anything is not to your liking, you can edit it in this file. Comments are used to explain everything, but a decent understanding of LaTeX is advised if you desire to change anything. In this file, you will find a comment stating that the code after a certain line is not essential. You can remove all the code from there onward to (pretty much) revert to default LaTeX behavior.
+Chapters folder: contains a .tex file for each chapter, numbered to remain in the same order for easier navigation. To add a chapter, simply add a .tex file and name it x.<title>.tex, where x is the chapter number (for chapters) or letter (for appendices) and <title> is any name you like. Don't forget to add the chapter in the main.tex file using:
+latex
 
-## Getting Started
-
-The name **"TexTome"** _"TeX,"_ which is the markup language used in LaTeX, and _"Tome,"_ which means a large and scholarly book. It has a catchy and memorable sound to it, and it also hints at the professional and academic nature of the template. The name is a result of an edited suggestion by [ChatGPT](https://chat.openai.com/chat).To get started with this template, read through this file to optimize your usage of the template.
-
-### Template Structure
-
-The following files are included in the template:
-
-- `main.tex`: This file loads all the `.tex` files for the preamble, title page, and different sections. It also adds a Table of Contents, bibliography, and appendices.
-- `General/Preamble.tex`: This file contains packages that can be added to the preamble of the report, and `General/References.bib` contains the references for the report.
-- `General/Settings.tex`: This file contains all the predefined formatting, including the title, subtitle, and authors for the front page.
-- `Chapters/`: This folder contains `.tex` files for each chapter. Each file is numbered, and the file name is in the format `x <title>.tex`, where `x` is the chapter number (for chapters) or letter (for appendices) and `<title>` is any name you like.
-- `Figures/`: This folder contains figures that can be used in the report. Always reference figures using `\includegraphics{ Figures/ <title>/name }`, where `<title>` is the subfolder where the image is located.
-
-### Usage
-
-To use this template, follow these steps:
-
-1. Clone the repository or download the files.
-2. Add your own content to the relevant files.
-3. Customize the formatting in `Settings.tex` to your liking.
-4. Compile the report using your preferred `LaTeX` compiler.
-
-### Adding Chapters
-
-To add a chapter, create a new `.tex` file in the `Chapters/` folder and name it `x.<title>.tex`, where `x` is the chapter number (for chapters) or letter (for appendices) and `<title>` is any name you like. Don't forget to add the chapter to the `main.tex` file using:
-
-```latex
+```
+Copy code
 \input{Chapters/x.<title>.tex}
 \newpage
-``` 
+```
 
-### Preview
+A few chapters are already predefined based on the writing manual. There is a front page, list of symbols, introduction, and appendix entry template. Other chapters can also be added by copying and renaming the 2. Copy me.tex file. Finally, the Z. Template.tex contains inspiration for formatting tables, images, text citations, etc. It also serves to preview the template. You can use it as a reference or delete it.
 
-The `3 formatting.tex` file contains inspiration for formatting tables, images, text citations, etc. It also functions to preview the template. Feel free to use it as a reference or delete it.
+Figures folder: allows you to put figures for use in the report. Make sure to always reference figures using \includegraphics{Figures/x.<title>/figurename}, where x.<title> is the subfolder the image is located in. The 0. General folder contains figures used for creating the template. Moving or removing this folder is not recommended.
+Contributing
+Please feel free to contribute to this template by submitting a pull request. If you have any issues or feature requests, please submit them to the Issues section of this repository.
 
-## Contribution
+Credits
+This template was created by modifying a suggestion from ChatGPT. Thank you, ChatGPT, for your contribution!
 
-Feel free to fork the repository and make changes to the template. Pull requests are welcome and you can contribute to the template by submitting a pull request. If you have any issues or feature requests, please submit them to the Issues section of this repository.
-
-## License  
-
-This template is licensed under the [Apache License](./LICENSE).
+License
+This template is licensed under the MIT License.
