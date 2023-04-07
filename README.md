@@ -1,5 +1,20 @@
 # TexTome
-A Template for `LaTeX` Reports
+
+
+<p align="center">
+  A Template for <code>LaTeX</code> Reports
+</p>
+
+<div align="center">
+  <a href="https://github.com/ravi-prakash1907/TexTome/blob/main/assets/TexTome.pdf">
+    <img alt="Example PDF" src="https://img.shields.io/badge/sample-PDF-orange" />
+  </a>
+  <a href="https://github.com/ravi-prakash1907/TexTome/blob/doc/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/license-Apache-blue" />
+  </a> 
+</div>
+
+<br />  
 
 ![banner](./assets/banner.jpg)  
 
