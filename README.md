@@ -1,9 +1,12 @@
-# TexTome
 
+<!-- 
+# TexTome
 
 <p align="center">
   A Template for <code>LaTeX</code> Reports
 </p>
+
+-->  
 
 <div align="center">
   <a href="https://github.com/ravi-prakash1907/TexTome/blob/main/assets/TexTome.pdf">
